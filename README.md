@@ -1,20 +1,14 @@
 # Ramadi Mortar Hesaplama
 
-> Simple mortar calculator for [Squad](https://joinsquad.com) that can quickly calculate bearing and milliradians for mortar targets.
+> Havan Hesaplayıcı for Havan hedefleri için kerteriz ve miliradyanları hızla hesaplayabilen [Squad](https://joinsquad.com).
 
-## Features
+## Özellikleri
+- Koordinat girmeyi basitleştirmek için yerleşik "telefon" tuş takımı
+- Bir alt-alt-alt koordinata göre doğru (ör. "B12-6-2-3")
+- Standart bir ızgara (300m) ile tüm harita boyutlarını destekler
+- Güzel kullanıcı arayüzü ve tasarımı
 
-- Built-in "phone" keypad to simplify entering coordinates
-- Accurate to a sub-sub-sub coordinate (ie. "B12-6-2-3")
-- Supports all map sizes with a standard grid (300m)
-- Beautiful user interface and design
 
-## Development
 
-Contributions are welcome!
-
-See the [Development Guide](DEVELOPMENT.md)
-
-## Miscellaneous
-
-Icon was taken from [Expo - Build Icon](https://buildicon.netlify.app/?color=ffc107&emoji=bomb)
+## Gelişim
+Katkılara açığız!
