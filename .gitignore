@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/**/*
+
+# Builds
+coverage/
+builds/
+web-build/
+
+.expo/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# macOS
+.DS_Store

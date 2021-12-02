@@ -1,0 +1,32 @@
+image: node:12-alpine
+
+stages:
+  - install
+  - quality
+
+install:
+  stage: install
+  script:
+    - npm install
+  # Keep NPM installation artifacts for next stages
+  artifacts:
+    name: "artifacts"
+    untracked: true
+    expire_in: 5 mins
+    paths:
+      - node_modules
+
+linting:
+  stage: quality
+  dependencies:
+    - install
+  script:
+    - npm run lint
+
+tests:
+  stage: quality
+  dependencies:
+    - install
+  script:
+    - npm run test:cover
+  coverage: /All files[^|]*\|[^|]*\s+([\d\.]+)/

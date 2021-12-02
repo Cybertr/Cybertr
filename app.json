@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Ramadi Havan Hesaplama",
+    "slug": "Ramadi Havan Hesaplama",
+    "version": "0.4.0",
+    "description": "Simple calculator for Squad mortars",
+    "privacy": "public",
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icons/icon.png",
+    "primaryColor": "#ffc107",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffc107"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/icon.png",
+        "backgroundColor": "#ffc107"
+      },
+      "package": "com.kendallroth.squad.mortarcalculator",
+      "permissions": [],
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/icons/favicon.png"
+    }
+  }
+}
