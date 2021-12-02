@@ -1,6 +1,6 @@
 # Ramadi Mortar Hesaplama
 
-> Havan Hesaplayıcı for Havan hedefleri için kerteriz ve miliradyanları hızla hesaplayabilen [Squad](https://joinsquad.com).
+> Havan hedefleri için kerteriz ve miliradyanları hızla hesaplayabilen HAVAN HESAPLAYICI [Squad](https://joinsquad.com).
 
 ## Özellikleri
 - Koordinat girmeyi basitleştirmek için yerleşik "telefon" tuş takımı
